@@ -1,0 +1,16 @@
+/* NO SELECT + HIGHLIGHT COLOR */
+* {
+    user-select: none;
+}
+
+*::selection {
+    background: none;
+}
+
+*::-moz-selection {
+    background: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
